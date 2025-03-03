@@ -20,7 +20,12 @@ DESCRIBE netflix;
 
 SET SESSION sql_mode = '';
 
-LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.2\\Uploads\\netflix_titles.csv"
-INTO TABLE netflix FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.2\\Uploads\\netflix_titles.csv' 
+INTO TABLE netflix
+FIELDS TERMINATED BY ','  
+ENCLOSED BY '"'  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS;
 
-select count(*) from netflix;
+
+select * from netflix;
