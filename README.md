@@ -11,7 +11,6 @@ This project focuses on analyzing Netflix's movie and TV show catalog using SQL 
 - Categorize content by specific keywords and themes to draw meaningful insights.
 
 ## Dataset
-    The dataset for this project is sourced from Kaggle:
 - **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 ## Findings and Conclusion
